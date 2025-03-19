@@ -7,7 +7,7 @@ TAG="2025-03-12"
 FILE_NAME="immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.img.gz"
 OUTPUT_PATH="imm/immortalwrt.img.gz"
 
-DOWNLOAD_URL="https://downloads.openwrt.org/releases/24.10.0/targets/x86/64/openwrt-24.10.0-x86-64-generic-squashfs-combined-efi.img.gz"
+DOWNLOAD_URL="https://openwrt.mpdn.fun:8443/lede/x86_64/2025-03-19__05-40-46--plus-daily/bleachwrt-plus-20250319-x86-64-generic-squashfs-combined-efi.img.gz"
 
 #=$(curl -s https://api.github.com/repos/$REPO/releases/tags/$TAG | jq -r '.assets[] | select(.name == "'"$FILE_NAME"'") | .browser_download_url')
 
